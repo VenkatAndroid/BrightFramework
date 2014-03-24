@@ -15,7 +15,6 @@ public class ContentPagerActivity extends ContentPagerMobi {
 	
 public int getActionBarColorId() {
 return R.color.action;
-
 }
 
 public Class getMainMenuClass() {
