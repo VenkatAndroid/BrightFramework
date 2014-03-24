@@ -1,0 +1,11 @@
+<div class="toolbar multimedia">
+    <input id="seek" name="seek" type="range" min="0" max="0" value="0" onchange="mobiFuse.showSeekValue(this.value)">
+
+    <div id="time" class="time">0:00/0:00</div>
+    <ul>
+        <li onclick="mobiFuse.previous();"><img src="images/ic_media_previous.png"></li>
+        <li onclick="mobiFuse.playAudio('~file~');"><img src="images/ic_media_play.png"></li>
+        <li onclick="mobiFuse.pause();"><img src="images/ic_media_pause.png"></li>
+        <li onclick="mobiFuse.next();"><img src="images/ic_media_next.png"></li>
+    </ul>
+</div>

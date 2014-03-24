@@ -1,0 +1,193 @@
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Serif'), local('PTSerif-Regular'), url("400.woff") format('woff');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Serif Bold'), local('PTSerif-Bold'), url("700.woff") format('woff');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Serif Italic'), local('PTSerif-Italic'), url("400-i.woff") format('woff');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local('PT Serif Bold Italic'), local('PTSerif-BoldItalic'), url("700-i.woff") format('woff');
+}
+
+/* HTML5 Boilerplate */
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,
+small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video { margin:0;padding:0;border:0;word-wrap:break-word;word-break:hyphenate;
+	font-family:'PT Serif', garamond, georgia, palatino, serif; }
+
+ul, li { list-style:none;list-style-type:none;display:block; }
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { display:block;word-wrap:break-word }
+
+/* END Boilerplate */
+
+img { width:auto; max-width:100%; }
+
+body {
+	background-color:#F7F7F2;
+	font-family:'PT Serif', garamond, georgia, palatino, serif;
+	font-size:1em;
+	line-height:1.45em;
+	color:#111;
+}
+
+body, p, h1, h2, h3, a, a:hover, a:active {
+	color:#111;
+	text-decoration: none;
+}
+
+.body-text { font-size:1em; line-height:1.5em; }
+
+article#mobi_content {
+	padding:30px 40px 200px 40px;
+	max-width:600px;
+	margin:0 auto;
+}
+
+h6, h5 { font-size:1em; }
+
+h1.mobi-page-title {
+	background-color:#F7F7F2;
+	font-size:1em;
+	display:block;
+	padding-top:20px;
+	text-align:center;
+	line-height:1em;
+	margin-bottom:0px;
+	border-bottom:2px solid #57323E;
+	padding-bottom:7px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-weight:normal;
+	position:fixed;
+	z-index:2000;
+	top:0;
+	left:30px;
+	right:30px;
+	max-width:800px;
+	box-shadow:0 4px 3px -3px rgba(0,0,0,0.3);
+	color:#57323E;
+}
+
+section.body-text {
+	padding:0px;
+	padding-top:60px;
+	margin:0px;
+}
+
+p.normal3a b i {
+	color:#632F40;
+}
+
+p {
+	text-align:left;
+	word-wrap:break-word;
+	word-break:hyphenate;
+	font-size:1em;
+}
+
+p.normal3, p.normal, .normal3, .normal1, .normal1a, .normal1b, .normal1c, .normal1d, .normal2, .normal2a, .extract1, extract {
+	margin-top:50px;
+}
+
+p {
+margin-top:1.25em;
+text-indent:1em;
+}
+
+p:first-of-type {
+margin-top:50px !important;
+text-indent:0 !important;
+}
+
+.bodytext-center {
+font-size:1.3em;
+margin-top:50px;
+margin-bottom:-25px;
+}
+
+.hangindent, .right-parab, .h2-b {
+margin-top:10px;
+text-align:right;
+margin-bottom:25px;
+}
+
+.centerb {
+font-size:1em;
+margin-top:50px;
+margin-bottom:-25px;
+text-align:center;
+font-weight:bold;
+}
+
+.normal1:first-child, .normal3:first-child {
+	margin-top:0px;
+}
+
+p.bodytext {
+	margin-top:20px;
+	text-indent: 1em;
+}
+
+p.right1, .blockquote2, .blockquotea, .blockquote5, .blockquotec {
+	text-align:right;
+	font-weight:normal;
+	margin-top:10px;
+	font-size:0.95em;
+	color:#632F40;
+}
+
+h3.right, .blockquote2a, .blockquote1a, .blockquote-2, .blockquote1, .blockquote-4, .blockquote-1, .blockquoted, .right2, .blockquote2b, .right5 {
+	text-align:right;
+	font-weight:normal;
+	font-size:0.93em;
+	color:#876582;
+}
+
+@media only screen and (min-width : 680px) {
+	h1.mobi-page-title {
+		left:auto;
+		right:auto;
+		width:640px;
+		margin-left:-20px;
+		margin-right:-20px;
+	}
+}
+
+@media only screen and (max-width : 400px) {
+	h1.mobi-page-title {
+		left:20px;
+		right:20px;
+	}
+	article#mobi_content {
+		padding:30px 30px 200px 30px;
+	}
+}
+
+@media only screen and (max-height : 300px) {
+	h1.mobi-page-title {
+		position:absolute;
+	}
+}

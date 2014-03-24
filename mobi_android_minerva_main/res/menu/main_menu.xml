@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!-- <item
+android:id="@+id/menu_search"
+android:actionViewClass="com.actionbarsherlock.widget.SearchView"
+android:showAsAction="ifRoom"
+android:title="@string/action_label_search"/> -->
+<item
+android:id="@+id/menu_more"
+android:actionProviderClass="com.mobifusion.androidmrv.minerva_client.menu.MainMenuActionProvider"
+android:icon="@drawable/ic_menu_moreoverflow_normal_holo_light"
+android:showAsAction="ifRoom"
+android:title="@string/action_label_menu"/>
+
+
+</menu>

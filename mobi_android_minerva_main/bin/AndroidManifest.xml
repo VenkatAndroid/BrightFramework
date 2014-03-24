@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="8" android:versionName="1.0.11" package="com.mobi.android3.QuranInEnglishUrduArabic"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- <uses-permission android:name="android.permission.GET_TASKS" /> -->
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+
+    <application
+      
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+       android:layerType="software"
+        android:largeHeap="true"
+          >
+        <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.Splash"
+           
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.SampleActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" />
+         
+               <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" />
+               
+                 <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.Progress"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" />
+        
+                          <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.Performance"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" />
+        
+        <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.MainMenu"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" />
+        
+         <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.MainMenuMobi"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" />
+        <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.ContentPagerActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" />
+        <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.VideoViewer"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" 
+           
+       />
+        <activity
+            android:name="com.mobi.android3.QuranInEnglishUrduArabic.InfoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" />
+    </application>
+
+</manifest>

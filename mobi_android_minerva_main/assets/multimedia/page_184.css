@@ -1,0 +1,223 @@
+body  {
+	background-repeat: no-repeat;
+	/* background-image: url(bg_temp.png); */
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 300px;
+
+
+}
+
+h1 {
+	color: #80828e; /* text color */
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 3em;
+	text-shadow: 0 1px 0 #fff; /* drop shadow */
+	margin-left: 7%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	
+}
+
+h2 {
+	color: #242424; /* text color */
+	font-family: sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #fff; /* drop shadow */
+	margin-left: 7%;
+	margin-bottom: -3%;
+}
+
+
+h3 {
+
+color: #362f2d; /* text color */
+	font-family: serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #fff; /* drop shadow */
+	margin-left: 7%;
+}
+
+.video-legend {
+
+	color: #000; /* text color */
+	font-family: "Helvetica";
+	font-size: 60%;
+	margin-left: 7%;	
+	width: 80%;
+	margin-bottom: 5%;
+	padding: 2%;
+	
+	
+	
+	opacity: .9; /* layer alpha */
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #fff; /* layer fill content */
+	
+
+}
+
+.quote {
+
+	color: #292a33; /* text color */
+	font-family: "georgia";
+	font-size: 110%;
+	margin-left: 7%;
+	margin-right: 7%;
+
+}
+
+.body-text {
+
+	line-height: 2em;
+
+	color: #292a33; /* text color */
+	font-family: "Georgia", sans-serif;
+	font-size: 0.5em;
+	/* text-shadow: 0 1px 0 #fff; */ /* drop shadow */
+	margin-left: 7%;
+	margin-right: 7%;
+	
+
+}
+
+
+.Ingredients {
+
+	color: #292a33; /* text color */
+	font-family: "helvetica", sans-serif;
+	font-size: 2em;
+	text-shadow: 0 1px 0 #fff; /* drop shadow */
+	margin-left: 7%;
+	margin-right: 7%;
+	
+
+}
+
+.Instructions {
+
+	line-height: 2em;
+
+	color: #292a33; /* text color */
+	font-family: "Georgia", sans-serif;
+	font-size: 0.5em;
+	/* text-shadow: 0 1px 0 #fff; */ /* drop shadow */
+	margin-left: 7%;
+	margin-right: 7%;
+
+}
+
+.content {
+
+	color: #292a33; /* text color */
+	font-family: "helvetica", sans-serif;
+	font-size: 2em;
+	text-shadow: 0 1px 0 #fff; /* drop shadow */
+	margin-left: 7%;
+	margin-right: 7%;
+	
+
+}
+
+p {
+
+	line-height: 2em;
+
+	color: #292a33; /* text color */
+	font-family: "Georgia", sans-serif;
+	font-size: 2em;
+	/* text-shadow: 0 1px 0 #fff; */ /* drop shadow */
+	margin-left: 7%;
+	margin-right: 7%;
+	
+	
+
+}
+
+
+.ingredient  {
+
+	color: #292a33; /* text color */
+	font-family: "georgia", sans-serif;
+	font-size: 100%;
+	/* text-shadow: 0 1px 0 #fff; */ /* drop shadow */
+	margin: 9%;
+	margin-left: 7%;
+	
+	font-style: italic;
+
+
+
+}
+
+
+.ingredient li {
+	margin-top: 3%;
+
+
+
+}
+
+
+
+
+
+.streaming-video {
+
+	width: 80%;
+	height: auto;
+	margin-left: 7%;
+	margin-bottom: 5%;
+
+	border: 8px solid #fff; /* stroke */
+	background-color: rgba(157,160,164,.8); /* layer fill content */
+	-moz-box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+	-webkit-box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+	box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+
+}
+	
+video {
+width: 100%;
+height: auto;
+
+}
+
+.Image {
+
+	width: 80%;
+	height: auto;
+	margin-left: 7%;
+	margin-bottom: 5%;
+
+	border: 8px solid #fff; /* stroke */
+	background-color: rgba(157,160,164,.8); /* layer fill content */
+	-moz-box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+	-webkit-box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+	box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+
+
+}
+	
+.inline-img {
+
+	width: 80%;
+	height: auto;
+	margin-left: 7%;
+	margin-bottom: 5%;
+
+	border: 8px solid #fff; /* stroke */
+	background-color: rgba(157,160,164,.8); /* layer fill content */
+	-moz-box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+	-webkit-box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+	box-shadow: 2px 3px 3px rgba(0,0,0,.19), 0 0 0 1px rgba(0,0,0,.05), inset 0 0 0 #fffffe, inset 0 0 0 1px rgba(255,255,255,.5); /* drop shadow, outer glow, inner shadow and inner glow */
+
+
+}

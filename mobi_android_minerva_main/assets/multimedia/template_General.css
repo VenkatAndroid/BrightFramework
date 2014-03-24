@@ -1,0 +1,164 @@
+body  {
+ background-repeat: no-repeat;
+ /* background-image: url(bg_temp.png); */
+ width: auto;
+ margin: 0px;
+ margin-bottom: 300px;
+ line-height: 2em;
+
+ color: #292a33; /* text color */
+ font-family: "Georgia", sans-serif;
+ font-size: 1em;
+ /* text-shadow: 0 1px 0 #fff; */ /* drop shadow */
+ background-color: white;
+
+
+}
+
+
+
+h1 {
+
+ color: Black; /* text color */
+ font-family: "helvetica-neue", "helvetica", sans-serif;
+ font-weight: bold;
+
+ text-align: center;
+
+
+ margin-top: 8%;
+ margin-bottom: 8%;
+ padding-bottom:8%;
+ margin-left: 7%;
+ margin-right:7%;
+ border-bottom: solid;
+ border-bottom-width: 1px;
+ border-bottom-color: lightgrey;
+ 
+}
+
+
+.body-text {
+
+ line-height: 1.5em;
+ font-size: 1em;
+ color: #292a33; /* text color */
+ font-family: "Georgia", sans-serif;
+
+ margin-left: 7%;
+ margin-right: 7%;
+ 
+
+}
+
+mp4Video{
+
+width:100%;
+height:auto;
+
+}
+
+poster-image{
+
+width:100%;
+height:auto;
+
+}
+
+streaming-video{
+
+width:100%;
+height:auto;
+
+}
+ 
+video {
+width: 100%;
+min-height: 320px;
+
+}
+
+img {
+width: 100%;
+height: auto;
+}
+
+.streaming-audio, .body-text, .mobifusion_data {
+	font-size:0.95em;
+	line-height:1.4em;
+	padding:25px 30px 30px 30px;
+	/*background-color:#FFF;*/
+box-shadow:0 -2px 0 rgba(0,0,0,0.2), 0 2px 0 rgba(0,0,0,0.2);
+	overflow:hidden;
+}
+
+p + h3 {
+	margin-top:-20px;
+	margin-bottom:0px;
+}
+
+.streaming-audio h3, .body-text, .mobifusion_data h3 {
+	font-size:1.3em;
+	line-height:1.3em;
+	padding-bottom:25px;
+	font-weight:normal;
+}
+
+.streaming-audio p, .body-text p, .mobifusion_data p {
+	padding-bottom:20px;
+	line-height:1.6em;
+	display:block;
+text-indent: 1em;
+}
+
+.streaming-audio p:first-child, .body-text p:first-child, .mobifusion_data p:first-child {
+text-indent:0;
+}
+
+.streaming-audio i, .body-text i {
+	font-size:1.1em;
+	padding-bottom:20px;
+	line-height:1.6em;
+	display:block;
+}
+
+.streaming-audio p .image-small, .body-text p .image-small, .mobifusion_data p .image-small {
+	margin-top:20px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.streaming-audio audio {
+width:100%;
+}
+
+p + p > .image-small {
+	margin-top:0px;
+}
+
+.aacAudio {
+padding:30px;
+position: absolute;
+}
+
+
+@media only screen and (min-width : 500px) {
+	body {
+		font-size:1.05em;
+	}
+	article#mobi_content {
+		width:500px;
+		position:static;
+		margin:0 auto;
+	}
+}
+
+@media only screen and (max-width : 500px){
+	body,html { 
+		background:#FFF !important;
+	}
+	.streaming-audio, .body-text, .mobifusion_data {
+		box-shadow: 0 -2px 0 rgba(0,0,0,0.2);
+	}
+}
